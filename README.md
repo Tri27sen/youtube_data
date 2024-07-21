@@ -5,22 +5,39 @@ Dataset Overview
 The dataset consists of YouTube video data with the following columns:
 
 publishedAt: The date and time when the video was published (datetime64[ns, UTC]).
+
 channelId: The unique identifier of the channel (object).
+
 channelTitle: The title of the channel (object).
+
 categoryId: The identifier for the video category (int64).
+
 trending_date: The date and time when the video was trending (datetime64[ns, UTC]).
+
 tags: Tags associated with the video (object).
+
 view_count: Number of views the video has received (int64).
+
 likes: Number of likes the video has received (int64).
+
 dislikes: Number of dislikes the video has received (int64).
+
 comment_count: Number of comments on the video (int64).
+
 comments_disabled: Indicates if comments are disabled (bool).
+
 ratings_disabled: Indicates if ratings are disabled (bool).
+
 description: Description of the video (object).
+
 date: Date part of the publishedAt (object).
+
 time: Time part of the publishedAt (object).
+
 title_cl: Cleaned title of the video (object).
+
 category_name: Name of the video category (object).
+
 tag_count: Number of tags associated with the video (int64).
 
 --------------------------------------------------------------------------------------
